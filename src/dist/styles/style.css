@@ -601,12 +601,12 @@ video::-webkit-media-controls {
   -webkit-transform-style: preserve-3d;
   background-size: cover; }
   #section0 h1 {
-    border: solid 2px #18214d;
+    border: solid 2px #fff;
     border-radius: 2px;
     display: inline-block;
     padding: 8px 20px;
     margin-top: 20px;
-    color: #18214d; }
+    color: #fff; }
     @media (min-width: 767px) {
       #section0 h1 {
         color: #fff;
@@ -815,6 +815,9 @@ video::-webkit-media-controls {
   @media (min-width: 767px) {
     #section6 {
       background-image: url("../images/desktop/g1.jpg"); } }
+#section6 h4{
+  margin: 20px 0 15px; 
+}
 
 #section7 .desktop img {
   margin: 30px auto 35px;
@@ -1030,6 +1033,10 @@ video::-webkit-media-controls {
     background: #f5f6f6;
     width: 100%;
     padding: 20px 40px; }
+.side-nav a {
+    text-decoration: none;
+    color: #18214d;
+}
     @media (min-width: 400px) {
       .side-nav .menu-bottom {
         padding: 40px; } }
@@ -1051,7 +1058,6 @@ video::-webkit-media-controls {
   .side-nav.show {
     -webkit-transform: translateZ(0);
     transform: translateZ(0); }
-
 @media (min-width: 767px) {
   .table-layout.desktop {
     display: table !important;
